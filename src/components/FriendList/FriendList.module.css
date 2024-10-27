@@ -1,0 +1,41 @@
+.wrapper {
+    padding: 0;
+    padding-top: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.friendsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 4%;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(211, 211, 211, 0.5);
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+.image {
+    width: 100px;
+    height: auto;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.statusOnline {
+    color: green;
+}
+
+.statusOffline {
+    color: red;
+}
