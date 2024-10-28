@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Profile user={userData} />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />
+      <TransactionHistory transactions={transactions} />
     </>
   );
 };
